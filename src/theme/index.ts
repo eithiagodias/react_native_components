@@ -21,7 +21,7 @@ const theme = createTheme({
 });
 
 type ThemeProps = typeof theme;
+type ThemeColorsProps = typeof colors;
+export type { ThemeProps,  ThemeColorsProps};
 
 export { theme };
-
-export type { ThemeProps };
